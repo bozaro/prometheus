@@ -9,6 +9,7 @@ require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/aws/aws-sdk-go v0.0.0-20180507225419-00862f899353
 	github.com/biogo/store v0.0.0-20160505134755-913427a1d5e8 // indirect
+	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/cenk/backoff v2.0.0+incompatible // indirect
 	github.com/certifi/gocertifi v0.0.0-20180905225744-ee1a9a0726d2 // indirect
 	github.com/cespare/xxhash v1.1.0
@@ -17,7 +18,11 @@ require (
 	github.com/cockroachdb/cockroach v0.0.0-20170608034007-84bc9597164f
 	github.com/cockroachdb/cockroach-go v0.0.0-20181001143604-e0a95dfd547c // indirect
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd // indirect
-	github.com/coreos/etcd v3.3.10+incompatible // indirect
+	github.com/coreos/bbolt v1.3.1-etcd.8 // indirect
+	github.com/coreos/etcd v3.3.10+incompatible
+	github.com/coreos/go-semver v0.2.0 // indirect
+	github.com/coreos/go-systemd v0.0.0-20181031085051-9002847aa142 // indirect
+	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/dgrijalva/jwt-go v0.0.0-20161101193935-9ed569b5d1ac // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/elastic/gosigar v0.9.0 // indirect
@@ -26,6 +31,7 @@ require (
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
 	github.com/fsnotify/fsnotify v1.4.7 // indirect
 	github.com/getsentry/raven-go v0.1.0 // indirect
+	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-ini/ini v1.21.1 // indirect
 	github.com/go-kit/kit v0.8.0
 	github.com/go-ole/go-ole v1.2.1 // indirect
@@ -39,7 +45,10 @@ require (
 	github.com/googleapis/gnostic v0.0.0-20180520015035-48a0ecefe2e4 // indirect
 	github.com/gophercloud/gophercloud v0.0.0-20170607034829-caf34a65f602
 	github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 // indirect
+	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
+	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v0.0.0-20171126203511-e4b8a938efae
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645 // indirect
 	github.com/hashicorp/consul v0.0.0-20180615161029-bed22a81e9fd
@@ -57,6 +66,7 @@ require (
 	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
 	github.com/jackc/pgx v3.2.0+incompatible // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20160803190731-bd40a432e4c7 // indirect
+	github.com/jonboulle/clockwork v0.1.0 // indirect
 	github.com/json-iterator/go v0.0.0-20180612202835-f2b4162afba3
 	github.com/jtolds/gls v4.2.1+incompatible // indirect
 	github.com/julienschmidt/httprouter v0.0.0-20150905172533-109e267447e9 // indirect
@@ -99,21 +109,26 @@ require (
 	github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24 // indirect
 	github.com/shurcooL/httpfs v0.0.0-20171119174359-809beceb2371
 	github.com/shurcooL/vfsgen v0.0.0-20180711163814-62bca832be04
+	github.com/sirupsen/logrus v1.3.0 // indirect
 	github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d // indirect
 	github.com/smartystreets/goconvey v0.0.0-20180222194500-ef6db91d284a // indirect
+	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/spf13/pflag v1.0.3 // indirect
 	github.com/stretchr/testify v1.2.2
-	golang.org/x/crypto v0.0.0-20180621125126-a49355c7e3f8 // indirect
-	golang.org/x/net v0.0.0-20180320002117-6078986fec03
-	golang.org/x/oauth2 v0.0.0-20160608215109-65a8d08c6292
-	golang.org/x/text v0.0.0-20170810154203-b19bf474d317 // indirect
+	github.com/tmc/grpc-websocket-proxy v0.0.0-20171017195756-830351dc03c6 // indirect
+	github.com/ugorji/go/codec v0.0.0-20181209151446-772ced7fd4c2 // indirect
+	github.com/xiang90/probing v0.0.0-20160813154853-07dd2e8dfe18 // indirect
+	go.etcd.io/bbolt v1.3.0 // indirect
+	go.uber.org/atomic v1.3.2 // indirect
+	go.uber.org/multierr v1.1.0 // indirect
+	go.uber.org/zap v1.9.1 // indirect
+	golang.org/x/net v0.0.0-20180826012351-8a410e7b638d
+	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
 	golang.org/x/time v0.0.0-20170424234030-8be79e1e0910
 	golang.org/x/tools v0.0.0-20181023010539-40a48ad93fbe // indirect
 	google.golang.org/api v0.0.0-20180506000402-20530fd5d65a
-	google.golang.org/appengine v0.0.0-20170522224838-a2f4131514e5 // indirect
-	google.golang.org/cloud v0.0.0-20160622021550-0a83eba2cadb // indirect
-	google.golang.org/genproto v0.0.0-20170531203552-aa2eb687b4d3
-	google.golang.org/grpc v0.0.0-20170516193736-3419b4295567
+	google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8
+	google.golang.org/grpc v1.17.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.3.0
